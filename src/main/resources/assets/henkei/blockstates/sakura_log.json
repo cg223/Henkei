@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "henkei:block/sakura_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "henkei:block/sakura_log"
+    },
+    "axis=z": {
+      "model": "henkei:block/sakura_log",
+      "x": 90
+    }
+  }
+}

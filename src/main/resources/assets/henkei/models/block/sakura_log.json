@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "henkei:blocks/sakura_log_top",
+    "up": "henkei:blocks/sakura_log_top",
+    "north": "henkei:blocks/sakura_log",
+    "east": "henkei:blocks/sakura_log",
+    "south": "henkei:blocks/sakura_log",
+    "west": "henkei:blocks/sakura_log",
+    "particle": "henkei:blocks/sakura_log_top"
+  },
+  "render_type": "solid"
+}

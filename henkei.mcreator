@@ -1,13 +1,72 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "SakuraLog",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/henkei/blockstates/sakura_log.json",
+          "src/main/resources/assets/henkei/models/item/sakura_log.json",
+          "src/main/resources/assets/henkei/models/block/sakura_log.json",
+          "src/main/java/net/mcreator/henkei/block/SakuraLogBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SakuraLeaves",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sakura_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/henkei/block/SakuraLeavesBlock.java",
+          "src/main/resources/assets/henkei/blockstates/sakura_leaves.json",
+          "src/main/resources/assets/henkei/models/block/sakura_leaves.json",
+          "src/main/resources/assets/henkei/models/item/sakura_leaves.json"
+        ]
+      },
+      "path": "~/Blocks"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.henkei.sakura_leaves": "Sakura Leaves",
+      "block.henkei.sakura_log": "Sakura Log"
+    }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Mobs",
+        "children": []
+      },
+      {
+        "name": "Biomes",
+        "children": []
+      },
+      {
+        "name": "Structures",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "henkei",
